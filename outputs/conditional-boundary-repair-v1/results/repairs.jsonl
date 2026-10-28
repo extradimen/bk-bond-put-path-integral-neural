@@ -1,0 +1,17 @@
+{"split": "train", "cell": "FB", "group": 106, "reference": [1601, 200, 1.0], "independent_max_abs": 1.2689109896596787e-05, "passed": true}
+{"split": "train", "cell": "TB", "group": 5, "reference": [1601, 200, 1.0], "independent_max_abs": 8.314261486092045e-06, "passed": true}
+{"split": "train", "cell": "TB", "group": 6, "reference": [1601, 200, 1.0], "independent_max_abs": 1.0123105614635863e-05, "passed": true}
+{"split": "train", "cell": "TB", "group": 15, "reference": [1601, 200, 1.0], "independent_max_abs": 1.5202157560579568e-06, "passed": true}
+{"split": "train", "cell": "TB", "group": 29, "reference": [1601, 200, 1.0], "independent_max_abs": 8.638521402176691e-06, "passed": true}
+{"split": "train", "cell": "TB", "group": 32, "reference": [1601, 200, 1.0], "independent_max_abs": 1.757787293682478e-05, "passed": true}
+{"split": "train", "cell": "TB", "group": 57, "reference": [1601, 200, 1.0], "independent_max_abs": 4.566110363241234e-06, "passed": true}
+{"split": "train", "cell": "TB", "group": 62, "reference": [1601, 200, 1.0], "independent_max_abs": 8.137697326015061e-05, "passed": true}
+{"split": "train", "cell": "TB", "group": 79, "reference": [1601, 200, 1.0], "independent_max_abs": 8.871624075229567e-06, "passed": true}
+{"split": "train", "cell": "TB", "group": 82, "reference": [1601, 200, 1.0], "independent_max_abs": 3.935449928392856e-05, "passed": true}
+{"split": "train", "cell": "TB", "group": 106, "reference": [1601, 200, 1.0], "independent_max_abs": 1.936568440830122e-05, "passed": true}
+{"split": "train", "cell": "TB", "group": 109, "reference": [1601, 200, 1.0], "independent_max_abs": 1.094157571174259e-05, "passed": true}
+{"split": "train", "cell": "TB", "group": 113, "reference": [1601, 200, 1.0], "independent_max_abs": 0.0001141590627330171, "passed": false}
+{"split": "train", "cell": "TB", "group": 113, "reference": [3201, 400, 1.0], "independent_max_abs": 5.5090376283092185e-06, "passed": true}
+{"split": "val", "cell": "TB", "group": 3, "reference": [1601, 200, 1.0], "independent_max_abs": 4.371481761418494e-06, "passed": true}
+{"split": "val", "cell": "TB", "group": 9, "reference": [1601, 200, 1.0], "independent_max_abs": 1.0908731102977215e-05, "passed": true}
+{"split": "val", "cell": "TB", "group": 23, "reference": [1601, 200, 1.0], "independent_max_abs": 2.4455971017162126e-05, "passed": true}
