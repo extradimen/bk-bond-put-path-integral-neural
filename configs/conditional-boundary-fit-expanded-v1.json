@@ -1,0 +1,44 @@
+{
+  "status": "frozen",
+  "data_file": "outputs/conditional-boundary-repair-v1/results/train-val-repaired.npz",
+  "data_sha256": "b6719b3222c6c834f69371d1d0bee2b6b479b84d0e4695d8a8308263b96866ad",
+  "cells": [
+    "FB",
+    "TB"
+  ],
+  "methods": [
+    "B",
+    "C",
+    "D"
+  ],
+  "expected_groups": {
+    "FB": {
+      "train": 128,
+      "val": 32
+    },
+    "TB": {
+      "train": 128,
+      "val": 32
+    }
+  },
+  "widths": [
+    64,
+    128,
+    256
+  ],
+  "layers": [
+    2,
+    3
+  ],
+  "seeds": [
+    11,
+    29
+  ],
+  "learning_rates": [
+    0.001
+  ],
+  "epochs": 500,
+  "batch": 256,
+  "patience": 40,
+  "validation_mae_target": 0.002
+}

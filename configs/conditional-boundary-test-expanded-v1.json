@@ -1,0 +1,214 @@
+{
+  "status": "frozen",
+  "sources": {
+    "FB": {
+      "file": "outputs/fixed-put-formal-recovery-v2/results/data-all.npz",
+      "sha256": "f43b1488a839ebebe6c8300dedda7c050371bb3d0d6349928e8ebce3a3d100c9"
+    },
+    "TB": {
+      "file": "outputs/timevarying-put-formal-recovery-v8/results/data-all.npz",
+      "sha256": "b1db5c8042c8ac2d6090656add4d16b089d35f0403ac90e41c07d0b833da79ce"
+    }
+  },
+  "selected": {
+    "file": "outputs/conditional-boundary-fit-expanded-resume-v1/results/selected.json",
+    "sha256": "766bc7c561261b05fd95611f923d67509c4720a618e2fba633717a046307a8bb"
+  },
+  "models": {
+    "FB": {
+      "B": {
+        "file": "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/FB-B-64-3-11-0.001.npz",
+        "sha256": "323fa5d8edcda4b05ab038acc39cc20af3869da6d086bcba2f4f3b900f378f68"
+      },
+      "C": {
+        "file": "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/FB-C-64-3-11-0.001.npz",
+        "sha256": "b583978e2823ad245d42032a9d8bc9c48caac1a8e68f41917a4d1161a4b5ac2e"
+      },
+      "D": {
+        "file": "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/FB-D-64-2-29-0.001.npz",
+        "sha256": "9e6f7206c7b1a988e8944d3650dd0dc117d721112dbbc61689083c2123d54df4"
+      }
+    },
+    "TB": {
+      "B": {
+        "file": "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/TB-B-128-3-29-0.001.npz",
+        "sha256": "ea96641cd281befe222229e7093ae1e5133677496bafba80288df7ca4884362a"
+      },
+      "C": {
+        "file": "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/TB-C-128-3-29-0.001.npz",
+        "sha256": "b005fc4a09c96d3398046a6a603c86b332442de18877d629ad644fc205d46a5e"
+      },
+      "D": {
+        "file": "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/TB-D-128-3-11-0.001.npz",
+        "sha256": "db478f92d99b99dedae4a8c828441bc6ea9c490a13f451757290d10775a6f5f4"
+      }
+    }
+  },
+  "methods": [
+    "B",
+    "C",
+    "D"
+  ],
+  "groups_by_cell": {
+    "FB": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191
+    ],
+    "TB": [
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191
+    ]
+  },
+  "reference": [
+    3201,
+    400,
+    1.0
+  ],
+  "independent": [
+    3201,
+    400,
+    1.0,
+    24
+  ],
+  "coarse": [
+    201,
+    100,
+    1.0
+  ],
+  "gtfk": [
+    801,
+    32,
+    32,
+    1.0
+  ],
+  "evaluation_states": 513,
+  "domain_margin": 0.01,
+  "reference_root_tolerance": 0.0001,
+  "reference_value_tolerance": 0.0001,
+  "continuation_mae_tolerance": 0.002,
+  "model_root_tolerance": 0.001
+}

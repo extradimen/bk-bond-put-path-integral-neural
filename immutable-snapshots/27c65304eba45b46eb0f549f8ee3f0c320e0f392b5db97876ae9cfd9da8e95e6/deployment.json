@@ -1,0 +1,24 @@
+{
+  "project_id": "1627c004-2f15-45c9-97e3-14fb5f0347e1",
+  "snapshot_sha256": "27c65304eba45b46eb0f549f8ee3f0c320e0f392b5db97876ae9cfd9da8e95e6",
+  "files": {
+    "scripts/learning.py": "39b9db181c3967ae6cc3c16b77b6056e804cc9ad2f96ae674c080c87416c806a",
+    "scripts/fixed_put_fit.py": "6238c3a6eb8db936a728077b59e6059a85700e2fcbab67c15d8714e898ab2f58",
+    "configs/fixed-put-fit-v1.json": "a7ea5b70fa8a334906267a7bb5d2f2b174f5e84ad82cc19bf69b9a5664111523",
+    "configs/environment-fixed-put-formal-data-v1.json": "22fd289cde0ef113f5ee0c70566a0a07be3556f9b799f84979ad2729c9f5ad50",
+    "configs/requirements-fixed-put-formal-data-v1.lock": "40a6b1c5300782a3364ed3e337c9daa7187ab76f5a685b8f5a954d63f512b4a0",
+    "outputs/fixed-put-formal-recovery-v2/results/data-fit.npz": "1d42c9c381ec3b1db0ca18995f206c04646244b409d07595c77ed71dedeaa46e",
+    "outputs/fixed-put-independent-check-v1/results/summary.json": "a409b1a07a118479ce0922b86ac7c4dc040f086239bda3902910fabc502717b7",
+    "outputs/fixed-put-independent-diagnose-v2/results/summary.json": "47f64698eabbf9148d5c426ab7db8991b46fbbf2c74c789d03a5a6113326ca0b",
+    "outputs/protocol-v4-four-task/protocol.md": "b3c462311339508aa57b98498787e5a896d1e630c0511495ad78f51fca7c1b4c",
+    "outputs/protocol-v4-four-task/fixed-put-formal-freeze.md": "292323c7835b75879e41ecbb9b3db7317f1320ca4ab29eacc88c6ab70440e2e2",
+    "outputs/protocol-v4-four-task/fixed-put-fit-v1.md": "0b460c71264ac67e04f99b4fc7cc82cc371bbc9e97d086063b39678a871134b8"
+  },
+  "data_snapshot": {
+    "config": "configs/fixed-put-fit-v1.json",
+    "sha256": "a7ea5b70fa8a334906267a7bb5d2f2b174f5e84ad82cc19bf69b9a5664111523"
+  },
+  "remote_cwd": "/root/codex-projects/1627c004-2f15-45c9-97e3-14fb5f0347e1/deployments/27c65304eba45b46eb0f549f8ee3f0c320e0f392b5db97876ae9cfd9da8e95e6",
+  "environment_fingerprint": "2f483d9f80bc4593e8764fe4d4bc717ee6ae3281c432ba1b4b8c61f52dfcc492",
+  "return_procedure": "After node OS wait evidence, source-hash results and materialize same-project v2 manifest to local-mac; verify every returned SHA256."
+}

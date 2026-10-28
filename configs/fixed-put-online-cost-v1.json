@@ -1,0 +1,14 @@
+{
+  "status": "frozen",
+  "data_file": "outputs/fixed-put-formal-recovery-v2/results/data-all.npz",
+  "data_sha256": "f43b1488a839ebebe6c8300dedda7c050371bb3d0d6349928e8ebce3a3d100c9",
+  "selected_file": "outputs/fixed-put-fit-v1/results/selected.json",
+  "selected_sha256": "bd1373782893d8e6c4044130679ac9546563434fffab90a034f1f5941355dc38",
+  "models_file": "outputs/fixed-put-fit-v1/results/models.tar.gz",
+  "models_sha256": "8b3ed3400ce8a46d2d814de7b4f95a5c5e2f92b1106ef036d9b0e1de38d8a76f",
+  "split": "val",
+  "groups": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "cells": ["FE", "FB"],
+  "seeds": [11, 23, 37, 53, 71],
+  "price_check_tolerance": 1e-6
+}

@@ -1,0 +1,32 @@
+{
+  "status": "frozen",
+  "sources": [
+    {
+      "name": "fixed",
+      "cells": ["FE", "FB"],
+      "data_file": "outputs/fixed-put-formal-recovery-v2/results/data-all.npz",
+      "data_sha256": "f43b1488a839ebebe6c8300dedda7c050371bb3d0d6349928e8ebce3a3d100c9",
+      "predictions_file": "outputs/fixed-put-evaluate-v1/results/predictions.npz",
+      "predictions_sha256": "af8bac195478fcbbeac5cc5d1c98a47931a595b369f535164c68b312f770d114",
+      "selected_file": "outputs/fixed-put-fit-v1/results/selected.json",
+      "selected_sha256": "bd1373782893d8e6c4044130679ac9546563434fffab90a034f1f5941355dc38"
+    },
+    {
+      "name": "timevarying",
+      "cells": ["TE", "TB"],
+      "data_file": "outputs/timevarying-put-formal-recovery-v8/results/data-all.npz",
+      "data_sha256": "b1db5c8042c8ac2d6090656add4d16b089d35f0403ac90e41c07d0b833da79ce",
+      "predictions_file": "outputs/timevarying-put-evaluate-v1/results/predictions.npz",
+      "predictions_sha256": "89fddb305c712b4f4c8b2bb1121ea5eadaa16309a93bbd00ec836252ae4b049c",
+      "selected_file": "outputs/timevarying-put-fit-v1/results/selected.json",
+      "selected_sha256": "19aece34f800496ef46d9dfb0a996bef39545cb7e583d18225b74107f313950f"
+    }
+  ],
+  "splits": ["test", "ood_vol", "ood_long"],
+  "groups": {"test": 2048, "ood_vol": 512, "ood_long": 512},
+  "total_groups": 12288,
+  "seeds": [11, 23, 37, 53, 71],
+  "near_zero_price": 0.001,
+  "premium_tolerance": 1e-6,
+  "premium_near_zero": 1e-5
+}

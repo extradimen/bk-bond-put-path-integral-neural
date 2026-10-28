@@ -1,0 +1,39 @@
+{
+  "project_id": "1627c004-2f15-45c9-97e3-14fb5f0347e1",
+  "snapshot_sha256": "e909b16790ae678ede5252136e01258bdc93df9bbeb867cb55fc8fed7256f6b8",
+  "files": {
+    "scripts/numerics.py": "251f70bc4c41719dfd7cbc101d2c3003d3b0862094953f36b9c697462d171cbd",
+    "scripts/bermudan_gtfk_split_pilot.py": "2c828569d32eabad2e14698b6915199f66f9a27b74b829acb70454eca88c7a87",
+    "scripts/timevarying_pde.py": "92e96e1d7b8c053d1380fc690ee3f84bf4d00121dc8f6b4144654fa6c95c8c79",
+    "scripts/timevarying_gtfk.py": "fcdc2ab7b5cd7972fef86f24a0956d5f4e62949f894217e817cfdf7dd697e199",
+    "scripts/timevarying_bermudan.py": "16cbb1c1ce4314f0ad8a2c9609cdbfa423d2d2165abc1e420a7fda0f31c72285",
+    "scripts/timevarying_data_pilot.py": "d9e1103fea2ef18d278a3ce3f39bededf6b36ab3cdb9a0da136b805b01bcbece",
+    "scripts/timevarying_put_risk_pilot.py": "4362221c058c8eff8b588b55ef0045b2e9442db290c5b5340b1f14b763d81b00",
+    "scripts/put_exercise_boundary_pilot.py": "e55469a88c529a679928651087d83d71b2e2ac6ccf4e29f76814a6ef9bebc2ca",
+    "scripts/conditional_boundary.py": "89215b1819a97980a8b7725cd44ba38d75722924e913c157a3fd68d3a0723ca2",
+    "scripts/conditional_boundary_features.py": "f02ff9c807347592feeae1b2f61d9b19ad854e0970d7fa86947541d4482c1bac",
+    "scripts/conditional_boundary_test.py": "fefde68722f6f6a3623f4542dee2d2ef77cf18398d58895208df1f44b76e0fb2",
+    "configs/environment-timevarying-put-online-cost-v1.json": "cfc1dce59ab946e0ca724cc12b24ccc12c2ab61804125de2680285d1ca8fb8bf",
+    "configs/requirements-timevarying-put-online-cost-v1.lock": "40a6b1c5300782a3364ed3e337c9daa7187ab76f5a685b8f5a954d63f512b4a0",
+    "outputs/fixed-put-formal-recovery-v2/results/data-all.npz": "f43b1488a839ebebe6c8300dedda7c050371bb3d0d6349928e8ebce3a3d100c9",
+    "outputs/timevarying-put-formal-recovery-v8/results/data-all.npz": "b1db5c8042c8ac2d6090656add4d16b089d35f0403ac90e41c07d0b833da79ce",
+    "outputs/protocol-v4-four-task/protocol.md": "b3c462311339508aa57b98498787e5a896d1e630c0511495ad78f51fca7c1b4c",
+    "configs/conditional-boundary-test-expanded-v1.json": "808f32f83dd86c8b253005109aca30cc8e6751841f1f34f3c22227723b7897e5",
+    "outputs/conditional-boundary-fit-expanded-resume-v1/results/selected.json": "766bc7c561261b05fd95611f923d67509c4720a618e2fba633717a046307a8bb",
+    "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/FB-B-64-3-11-0.001.npz": "323fa5d8edcda4b05ab038acc39cc20af3869da6d086bcba2f4f3b900f378f68",
+    "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/FB-C-64-3-11-0.001.npz": "b583978e2823ad245d42032a9d8bc9c48caac1a8e68f41917a4d1161a4b5ac2e",
+    "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/FB-D-64-2-29-0.001.npz": "9e6f7206c7b1a988e8944d3650dd0dc117d721112dbbc61689083c2123d54df4",
+    "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/TB-B-128-3-29-0.001.npz": "ea96641cd281befe222229e7093ae1e5133677496bafba80288df7ca4884362a",
+    "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/TB-C-128-3-29-0.001.npz": "b005fc4a09c96d3398046a6a603c86b332442de18877d629ad644fc205d46a5e",
+    "outputs/conditional-boundary-fit-expanded-resume-v1/results/models/TB-D-128-3-11-0.001.npz": "db478f92d99b99dedae4a8c828441bc6ea9c490a13f451757290d10775a6f5f4",
+    "outputs/protocol-v4-four-task/conditional-boundary-expanded-design-v1.md": "ce481d8cbbba6737b5e54757593c0a7df2c6ea031dd96d816bd95b72a52955a1",
+    "outputs/protocol-v4-four-task/conditional-boundary-test-expanded-v1.md": "47d4451ffac809c12c0e165c48516fbadcbee244a817c9d0a793e27ac25e85f6"
+  },
+  "data_snapshot": {
+    "config": "configs/conditional-boundary-test-expanded-v1.json",
+    "sha256": "808f32f83dd86c8b253005109aca30cc8e6751841f1f34f3c22227723b7897e5"
+  },
+  "remote_cwd": "/root/codex-projects/1627c004-2f15-45c9-97e3-14fb5f0347e1/deployments/e909b16790ae678ede5252136e01258bdc93df9bbeb867cb55fc8fed7256f6b8",
+  "environment_fingerprint": "ab0c7657862e18a224dcf7614106d9d9e316fe445b0a778b15c1b32bc46bdbd1",
+  "return_procedure": "After node OS wait evidence, source-hash results and materialize same-project v2 manifest to local-mac; verify every returned SHA256."
+}

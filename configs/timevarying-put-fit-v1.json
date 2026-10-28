@@ -1,0 +1,40 @@
+{
+  "status": "frozen",
+  "data_file": "outputs/timevarying-put-formal-recovery-v8/results/data-fit.npz",
+  "data_fit_sha256": "2a3ab0d2719d86a49135dd193da399561d3b65b847e60770f6ae5b904215aa5c",
+  "cells": [
+    "TE",
+    "TB"
+  ],
+  "methods": [
+    "B",
+    "C",
+    "D"
+  ],
+  "budgets": [
+    256,
+    1024,
+    4096
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "layers": [
+    3,
+    5
+  ],
+  "widths": [
+    64,
+    128
+  ],
+  "learning_rates": [
+    0.001,
+    0.0003
+  ],
+  "workers": 24,
+  "max_seconds": 14400
+}

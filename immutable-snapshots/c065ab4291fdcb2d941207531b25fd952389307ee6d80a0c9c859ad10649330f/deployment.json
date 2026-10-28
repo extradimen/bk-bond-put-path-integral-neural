@@ -1,0 +1,34 @@
+{
+  "project_id": "1627c004-2f15-45c9-97e3-14fb5f0347e1",
+  "snapshot_sha256": "c065ab4291fdcb2d941207531b25fd952389307ee6d80a0c9c859ad10649330f",
+  "files": {
+    "scripts/numerics.py": "251f70bc4c41719dfd7cbc101d2c3003d3b0862094953f36b9c697462d171cbd",
+    "scripts/bermudan_gtfk_split_pilot.py": "2c828569d32eabad2e14698b6915199f66f9a27b74b829acb70454eca88c7a87",
+    "scripts/timevarying_pde.py": "92e96e1d7b8c053d1380fc690ee3f84bf4d00121dc8f6b4144654fa6c95c8c79",
+    "scripts/timevarying_gtfk.py": "fcdc2ab7b5cd7972fef86f24a0956d5f4e62949f894217e817cfdf7dd697e199",
+    "scripts/timevarying_bermudan.py": "16cbb1c1ce4314f0ad8a2c9609cdbfa423d2d2165abc1e420a7fda0f31c72285",
+    "scripts/timevarying_data_pilot.py": "d9e1103fea2ef18d278a3ce3f39bededf6b36ab3cdb9a0da136b805b01bcbece",
+    "scripts/timevarying_formal_data.py": "5fdada60e33184e5216ef92d792ee81bf4e9274571640140d5385c83b6f819ef",
+    "scripts/timevarying_formal_recovery_v8.py": "f4b91c2410732c79b1c9bd0958d0838411fbe5aaf5f55d2eaaf935a625b4b19e",
+    "configs/timevarying-put-formal-recovery-v8.json": "9428a5e1aec60ddc7b405836f804f69e92f41fe57cea82ff78fc59811c8b3e55",
+    "configs/environment-p3b-gtfk-split-v2.json": "4aa48a190733c4f131df0fd80ba1c44e03e1d30bb254c34cc66adf62244907ad",
+    "configs/requirements-p3b-gtfk-split-v2.lock": "40a6b1c5300782a3364ed3e337c9daa7187ab76f5a685b8f5a954d63f512b4a0",
+    "outputs/timevarying-put-formal-data-v6/node-status-frozen-v8-source.json": "e979f84eae8203a648438c9d948029d56890a72d6a7602813a92022f09e4b14e",
+    "outputs/timevarying-put-formal-data-v6/results/train.jsonl": "d3f71f9bd7f12b7f1e2b6366ef01537ff8a20a4253fb70027494d80ec0dd5e3c",
+    "outputs/timevarying-put-formal-data-v6/results/val.jsonl": "6b24355a7878c24965db77442a46b0f68e6a7788e74392462eea0353f36cc326",
+    "outputs/timevarying-put-formal-data-v6/results/ood_vol.jsonl": "802019213a4e109a36212cac2e6e080b1493e4b6a415d69cafadf7a1489b6caf",
+    "outputs/timevarying-put-dominance-diagnostic-v7/node-status-frozen-v8-source.json": "202819d0f1ba86df7f6cad531b31f8f98c3a50aae22baf3fea02ea35117cf680",
+    "outputs/protocol-v4-four-task/protocol.md": "b3c462311339508aa57b98498787e5a896d1e630c0511495ad78f51fca7c1b4c",
+    "outputs/protocol-v4-four-task/timevarying-put-formal-freeze.md": "c93489e1e3b78a560c200c6902bdfdf5a7047b41c187c333215333975e609164",
+    "outputs/protocol-v4-four-task/timevarying-put-dominance-diagnostic-v7.md": "0973ca7d28656b47f4960a7d68d531d09324cb8d267f188e9272bb4a1b2be667",
+    "outputs/protocol-v4-four-task/timevarying-put-dominance-diagnostic-result-v7.md": "18565d54f1318f32d8f6bc11f4bee7a7353dfae3740e34443340ac16c641549c",
+    "outputs/protocol-v4-four-task/timevarying-put-formal-recovery-v8.md": "710a472dcf97a8a1a0f8e965d9b629633e0e5a3c1d223dbc5edf3557d6b0ef5f"
+  },
+  "data_snapshot": {
+    "config": "configs/timevarying-put-formal-recovery-v8.json",
+    "sha256": "9428a5e1aec60ddc7b405836f804f69e92f41fe57cea82ff78fc59811c8b3e55"
+  },
+  "remote_cwd": "/root/codex-projects/1627c004-2f15-45c9-97e3-14fb5f0347e1/deployments/c065ab4291fdcb2d941207531b25fd952389307ee6d80a0c9c859ad10649330f",
+  "environment_fingerprint": "8025728c2582c1627b8697681d52cbcf44665b3d95b4a8c99d65e1d0648c39ad",
+  "return_procedure": "After node OS wait evidence, source-hash results and materialize same-project v2 manifest to local-mac; verify every returned SHA256."
+}

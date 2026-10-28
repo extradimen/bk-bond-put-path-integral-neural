@@ -1,0 +1,18 @@
+{
+  "status": "frozen",
+  "data_file": "outputs/fixed-put-formal-recovery-v2/results/data-all.npz",
+  "data_all_sha256": "f43b1488a839ebebe6c8300dedda7c050371bb3d0d6349928e8ebce3a3d100c9",
+  "selected_file": "outputs/fixed-put-fit-v1/results/selected.json",
+  "selected_sha256": "bd1373782893d8e6c4044130679ac9546563434fffab90a034f1f5941355dc38",
+  "models_file": "outputs/fixed-put-fit-v1/results/models.tar.gz",
+  "models_sha256": "8b3ed3400ce8a46d2d814de7b4f95a5c5e2f92b1106ef036d9b0e1de38d8a76f",
+  "splits": ["test", "ood_vol", "ood_long"],
+  "groups": {"test": 2048, "ood_vol": 512, "ood_long": 512},
+  "cells": ["FE", "FB"],
+  "methods": ["B", "C", "D"],
+  "seeds": [11, 23, 37, 53, 71],
+  "contrasts": [["B", "C"], ["B", "D"], ["A", "C"], ["A", "B"], ["Dbase", "D"], ["C", "D"]],
+  "analysis_seed": 20261055,
+  "bootstrap_reps": 2000,
+  "signflip_reps": 10000
+}

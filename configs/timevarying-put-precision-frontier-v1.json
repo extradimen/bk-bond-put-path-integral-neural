@@ -1,0 +1,11 @@
+{
+  "status": "frozen",
+  "data_file": "outputs/timevarying-put-formal-recovery-v8/results/data-all.npz",
+  "data_sha256": "b1db5c8042c8ac2d6090656add4d16b089d35f0403ac90e41c07d0b833da79ce",
+  "split": "val",
+  "cells": ["TE", "TB"],
+  "groups": [0, 1, 2, 3, 4, 5, 6, 7],
+  "gtfk_candidates": [[801, 64, 64], [1601, 64, 64], [3201, 64, 64], [801, 128, 128], [1601, 128, 128], [3201, 128, 128]],
+  "pde_candidates": [[101, 100], [201, 50], [201, 100], [201, 200], [401, 100]],
+  "dbase_tolerance": 1e-6
+}

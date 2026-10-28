@@ -1,0 +1,27 @@
+{
+  "project_id": "1627c004-2f15-45c9-97e3-14fb5f0347e1",
+  "snapshot_sha256": "3261463d67ceb95064f34bbb4fbca8cd558374dd603803769897f20b46f73802",
+  "files": {
+    "scripts/learning.py": "39b9db181c3967ae6cc3c16b77b6056e804cc9ad2f96ae674c080c87416c806a",
+    "scripts/timevarying_put_evaluate.py": "7ddb968952ea84f24075d7e6fcb576dec744af4fcfefda61b533fa39530d8aaf",
+    "configs/timevarying-put-evaluate-v1.json": "021fe2f89456cd75e3b115553a080253c50f9d602f2632fc02e54bf04a507a80",
+    "configs/environment-timevarying-put-evaluate-v1.json": "a9474b5e9f6eea5439907d5feca5e659bc94f88b5397c742e5b346f0a6918260",
+    "configs/requirements-timevarying-put-evaluate-v1.lock": "40a6b1c5300782a3364ed3e337c9daa7187ab76f5a685b8f5a954d63f512b4a0",
+    "outputs/timevarying-put-formal-recovery-v8/results/data-all.npz": "b1db5c8042c8ac2d6090656add4d16b089d35f0403ac90e41c07d0b833da79ce",
+    "outputs/timevarying-put-fit-v1/results/selected.json": "19aece34f800496ef46d9dfb0a996bef39545cb7e583d18225b74107f313950f",
+    "outputs/timevarying-put-fit-v1/results/models.tar.gz": "fe7da7f162afc75822a68358f3d2d5abfcbb9385496f3762578018d71efcaf79",
+    "outputs/timevarying-put-fit-v1/node-status.json": "21ce644c330dde28e0d6c977f0cc446d9125e7c3122da4024b7ed121bd3d5136",
+    "outputs/timevarying-put-fit-v1/return-receipt.json": "013ac7143a6b327f5584c8d77035d714accebd1d7050b49498648eb88d23f3fa",
+    "outputs/protocol-v4-four-task/protocol.md": "b3c462311339508aa57b98498787e5a896d1e630c0511495ad78f51fca7c1b4c",
+    "outputs/protocol-v4-four-task/timevarying-put-formal-freeze.md": "c93489e1e3b78a560c200c6902bdfdf5a7047b41c187c333215333975e609164",
+    "outputs/protocol-v4-four-task/timevarying-put-fit-v1.md": "e8600657a044b1c96dd15dec4f381ccfe613e8c1df93259c0907f2dc37e35d87",
+    "outputs/protocol-v4-four-task/timevarying-put-evaluate-v1.md": "76b2431b2da42d5831af56b7001f1a912b1119872f5e7f6329b687429a8be547"
+  },
+  "data_snapshot": {
+    "config": "configs/timevarying-put-evaluate-v1.json",
+    "sha256": "021fe2f89456cd75e3b115553a080253c50f9d602f2632fc02e54bf04a507a80"
+  },
+  "remote_cwd": "/root/codex-projects/1627c004-2f15-45c9-97e3-14fb5f0347e1/deployments/3261463d67ceb95064f34bbb4fbca8cd558374dd603803769897f20b46f73802",
+  "environment_fingerprint": "f4b7df18e6e274f976feeafa74af37392bb31914e77c6fd54ca1ce01310b567a",
+  "return_procedure": "After node OS wait evidence, source-hash results and materialize same-project v2 manifest to local-mac; verify every returned SHA256."
+}

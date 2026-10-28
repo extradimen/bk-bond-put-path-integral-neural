@@ -1,0 +1,105 @@
+{
+  "status": "frozen",
+  "sources": {
+    "FB": {
+      "file": "outputs/fixed-put-formal-recovery-v2/results/data-all.npz",
+      "sha256": "f43b1488a839ebebe6c8300dedda7c050371bb3d0d6349928e8ebce3a3d100c9"
+    },
+    "TB": {
+      "file": "outputs/timevarying-put-formal-recovery-v8/results/data-all.npz",
+      "sha256": "b1db5c8042c8ac2d6090656add4d16b089d35f0403ac90e41c07d0b833da79ce"
+    }
+  },
+  "original_data": {
+    "file": "outputs/conditional-boundary-trainval-v2/results/train-val.npz",
+    "sha256": "35c94221a63ad8ac2ea59c863e46fe6f44e77fc0160141132309d191a2ff9f9b"
+  },
+  "original_ledger": {
+    "file": "outputs/conditional-boundary-trainval-v2/results/groups.jsonl",
+    "sha256": "e470e5e96039fef660e960aaf026f41580e16e161505b2622321207875cc44a3"
+  },
+  "repair_groups_by_split": {
+    "train": {
+      "FB": [
+        106
+      ],
+      "TB": [
+        5,
+        6,
+        15,
+        29,
+        32,
+        57,
+        62,
+        79,
+        82,
+        106,
+        109,
+        113
+      ]
+    },
+    "val": {
+      "TB": [
+        3,
+        9,
+        23
+      ]
+    }
+  },
+  "splits": [
+    "train",
+    "val"
+  ],
+  "cells": [
+    "FB",
+    "TB"
+  ],
+  "expected_groups": {
+    "FB": {
+      "train": 128,
+      "val": 32
+    },
+    "TB": {
+      "train": 128,
+      "val": 32
+    }
+  },
+  "reference_tiers": [
+    [
+      1601,
+      200,
+      1.0
+    ],
+    [
+      3201,
+      400,
+      1.0
+    ]
+  ],
+  "independent": [
+    3201,
+    400,
+    1.0,
+    24
+  ],
+  "coarse": [
+    201,
+    100,
+    1.0
+  ],
+  "gtfk": [
+    801,
+    32,
+    32,
+    1.0
+  ],
+  "states_per_date": 33,
+  "boundary_offsets": [
+    -0.1,
+    -0.05,
+    0.0,
+    0.05,
+    0.1
+  ],
+  "label_tolerance": 0.0001
+}

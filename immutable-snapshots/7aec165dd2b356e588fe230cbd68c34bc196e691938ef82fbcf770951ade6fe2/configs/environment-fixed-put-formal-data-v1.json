@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "project_id": "1627c004-2f15-45c9-97e3-14fb5f0347e1",
+  "kind": "python-venv",
+  "python_executable": "python3.12",
+  "python_version": "3.12",
+  "lock_file": "configs/requirements-fixed-put-formal-data-v1.lock",
+  "target_platform": "manylinux_2_27_x86_64",
+  "target_implementation": "cp",
+  "target_abi": "cp312"
+}

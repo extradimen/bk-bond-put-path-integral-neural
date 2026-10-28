@@ -1,0 +1,29 @@
+{
+  "project_id": "1627c004-2f15-45c9-97e3-14fb5f0347e1",
+  "snapshot_sha256": "6833ca055eb0054e3dc32462e205a292958936383f1c6ff5b174efac26833b38",
+  "files": {
+    "scripts/learning.py": "39b9db181c3967ae6cc3c16b77b6056e804cc9ad2f96ae674c080c87416c806a",
+    "scripts/fixed_put_fit.py": "6238c3a6eb8db936a728077b59e6059a85700e2fcbab67c15d8714e898ab2f58",
+    "configs/timevarying-put-fit-v1.json": "0b729b0b8235dab106981bb05985b682d0f5eebb0550766cbf08679370d74f00",
+    "configs/environment-timevarying-put-fit-v1.json": "a10839ba08fdaaa2c71f70ff9b80f239419a7432c6279df138f5e2b0c99df02d",
+    "configs/requirements-timevarying-put-fit-v1.lock": "40a6b1c5300782a3364ed3e337c9daa7187ab76f5a685b8f5a954d63f512b4a0",
+    "outputs/timevarying-put-formal-recovery-v8/results/data-fit.npz": "2a3ab0d2719d86a49135dd193da399561d3b65b847e60770f6ae5b904215aa5c",
+    "outputs/timevarying-put-formal-recovery-v8/node-status.json": "5bbe97c395c01116a19b7ace85163d2e0597779a3291a3cd262e596d4c3329fa",
+    "outputs/timevarying-put-formal-recovery-v8/return-receipt.json": "987e8e77eb4ae3b4d75b5eb3626c269f5be3dc086859f3ea69f6a500b302d4e1",
+    "outputs/timevarying-put-independent-check-v8/results/summary.json": "ab8e8f7514dff2112a92bfbc8ad389bc28f1db927b052df2a44243e7bd5c28bf",
+    "outputs/timevarying-put-independent-check-v8/node-status.json": "23232ca38c4a0794c7c1b73bbdcceb98da62303294cbc1e045468d43e97bd63e",
+    "outputs/timevarying-put-independent-check-v8/return-receipt.json": "b81c8d1e8088975755b1f29d3ba100de2fdfcce899801f5ef24d6207c1958883",
+    "outputs/protocol-v4-four-task/protocol.md": "b3c462311339508aa57b98498787e5a896d1e630c0511495ad78f51fca7c1b4c",
+    "outputs/protocol-v4-four-task/timevarying-put-formal-freeze.md": "c93489e1e3b78a560c200c6902bdfdf5a7047b41c187c333215333975e609164",
+    "outputs/protocol-v4-four-task/timevarying-put-formal-recovery-v8.md": "710a472dcf97a8a1a0f8e965d9b629633e0e5a3c1d223dbc5edf3557d6b0ef5f",
+    "outputs/protocol-v4-four-task/timevarying-put-independent-check-v8.md": "17d1575ca10530c28a77e26e2622d158c99ec3ad8cfac0f84bb0593a91cf538f",
+    "outputs/protocol-v4-four-task/timevarying-put-fit-v1.md": "e8600657a044b1c96dd15dec4f381ccfe613e8c1df93259c0907f2dc37e35d87"
+  },
+  "data_snapshot": {
+    "config": "configs/timevarying-put-fit-v1.json",
+    "sha256": "0b729b0b8235dab106981bb05985b682d0f5eebb0550766cbf08679370d74f00"
+  },
+  "remote_cwd": "/root/codex-projects/1627c004-2f15-45c9-97e3-14fb5f0347e1/deployments/6833ca055eb0054e3dc32462e205a292958936383f1c6ff5b174efac26833b38",
+  "environment_fingerprint": "1e57fec7acfe931bf5a16eede1bfa07d396ae1db97f2434ba1c146fdacd20ee9",
+  "return_procedure": "After node OS wait evidence, source-hash results and materialize same-project v2 manifest to local-mac; verify every returned SHA256."
+}

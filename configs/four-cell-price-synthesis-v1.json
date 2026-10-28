@@ -1,0 +1,20 @@
+{
+  "status": "frozen",
+  "families": {"fixed": ["FE", "FB"], "timevarying": ["TE", "TB"]},
+  "methods": ["A", "B", "C", "Dbase", "D"],
+  "budget": 4096,
+  "seeds": [11, 23, 37, 53, 71],
+  "test_groups": 2048,
+  "contrasts_per_cell": 6,
+  "frozen_cells": 4,
+  "sources": {
+    "fixed": {
+      "scores": {"file": "outputs/fixed-put-evaluate-v1/results/scores.json", "sha256": "c96289cf1c352e240d310ccb526ee5ca23d692dd2341567a70d2c9d98bbe5d48"},
+      "contrasts": {"file": "outputs/fixed-put-evaluate-v1/results/primary-contrasts.json", "sha256": "79f4cb74d640129f2c5f045565b5e8e78e5d8eb4dff0bc5ae282a32cf003bedf"}
+    },
+    "timevarying": {
+      "scores": {"file": "outputs/timevarying-put-evaluate-v1/results/scores.json", "sha256": "d622a6b4f026aeae1415ee33f42b777d3bf85220204a5f4d7f89c85f705457d3"},
+      "contrasts": {"file": "outputs/timevarying-put-evaluate-v1/results/primary-contrasts.json", "sha256": "891b75fdc00acceb54716969c9a549ce7bc8e22eb53b3d3efd8089c433b57d99"}
+    }
+  }
+}

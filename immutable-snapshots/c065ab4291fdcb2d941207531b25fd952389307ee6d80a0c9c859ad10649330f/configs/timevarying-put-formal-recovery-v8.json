@@ -1,0 +1,23 @@
+{
+  "status": "frozen",
+  "protocol": "outputs/protocol-v4-four-task/timevarying-put-formal-freeze.md",
+  "amendment": "outputs/protocol-v4-four-task/timevarying-put-formal-recovery-v8.md",
+  "workers": 24,
+  "max_seconds": 259200,
+  "source_os_wait_receipts": [
+    {"path": "outputs/timevarying-put-formal-data-v6/node-status-frozen-v8-source.json", "sha256": "e979f84eae8203a648438c9d948029d56890a72d6a7602813a92022f09e4b14e"},
+    {"path": "outputs/timevarying-put-dominance-diagnostic-v7/node-status-frozen-v8-source.json", "sha256": "202819d0f1ba86df7f6cad531b31f8f98c3a50aae22baf3fea02ea35117cf680"}
+  ],
+  "source_ledgers": {
+    "train": {"path": "outputs/timevarying-put-formal-data-v6/results/train.jsonl", "sha256": "d3f71f9bd7f12b7f1e2b6366ef01537ff8a20a4253fb70027494d80ec0dd5e3c"},
+    "val": {"path": "outputs/timevarying-put-formal-data-v6/results/val.jsonl", "sha256": "6b24355a7878c24965db77442a46b0f68e6a7788e74392462eea0353f36cc326"},
+    "ood_vol": {"path": "outputs/timevarying-put-formal-data-v6/results/ood_vol.jsonl", "sha256": "802019213a4e109a36212cac2e6e080b1493e4b6a415d69cafadf7a1489b6caf"}
+  },
+  "splits": [
+    {"name": "train", "groups": 4096, "seed": 20261040, "region": "main"},
+    {"name": "val", "groups": 1024, "seed": 20261041, "region": "main"},
+    {"name": "test", "groups": 2048, "seed": 20261052, "region": "main"},
+    {"name": "ood_vol", "groups": 512, "seed": 20261043, "region": "ood_vol"},
+    {"name": "ood_long", "groups": 512, "seed": 20261054, "region": "ood_long"}
+  ]
+}

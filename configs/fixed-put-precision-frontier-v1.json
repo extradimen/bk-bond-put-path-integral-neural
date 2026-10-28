@@ -1,0 +1,12 @@
+{
+  "status": "frozen",
+  "data_file": "outputs/fixed-put-formal-recovery-v2/results/data-all.npz",
+  "data_sha256": "f43b1488a839ebebe6c8300dedda7c050371bb3d0d6349928e8ebce3a3d100c9",
+  "split": "val",
+  "cells": ["FE", "FB"],
+  "groups": [0, 1, 2, 3, 4, 5, 6, 7],
+  "european_gtfk_candidates": [[48, 24], [96, 48], [192, 96]],
+  "bermudan_gtfk_candidates": [[801, 96, 48, 0.75], [1601, 96, 48, 0.75], [3201, 96, 48, 0.75], [801, 192, 96, 0.75], [1601, 192, 96, 0.75], [3201, 192, 96, 0.75], [1601, 192, 96, 1.0]],
+  "pde_candidates": [[101, 100], [201, 50], [201, 100], [201, 200], [401, 100]],
+  "dbase_tolerance": 1e-6
+}

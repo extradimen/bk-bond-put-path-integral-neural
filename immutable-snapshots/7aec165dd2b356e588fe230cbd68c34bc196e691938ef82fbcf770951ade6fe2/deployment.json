@@ -1,0 +1,24 @@
+{
+  "project_id": "1627c004-2f15-45c9-97e3-14fb5f0347e1",
+  "snapshot_sha256": "7aec165dd2b356e588fe230cbd68c34bc196e691938ef82fbcf770951ade6fe2",
+  "files": {
+    "scripts/learning.py": "39b9db181c3967ae6cc3c16b77b6056e804cc9ad2f96ae674c080c87416c806a",
+    "scripts/fixed_put_evaluate.py": "6e91eea10c8bf962aae6902f4630a026d1001fec45f62559e9fb5928c0220ed3",
+    "configs/fixed-put-evaluate-v1.json": "6bedcad4456c01179822f72a073cfc57833035c2aebb37d5d4e29c281c0c1d68",
+    "configs/environment-fixed-put-formal-data-v1.json": "22fd289cde0ef113f5ee0c70566a0a07be3556f9b799f84979ad2729c9f5ad50",
+    "configs/requirements-fixed-put-formal-data-v1.lock": "40a6b1c5300782a3364ed3e337c9daa7187ab76f5a685b8f5a954d63f512b4a0",
+    "outputs/fixed-put-formal-recovery-v2/results/data-all.npz": "f43b1488a839ebebe6c8300dedda7c050371bb3d0d6349928e8ebce3a3d100c9",
+    "outputs/fixed-put-fit-v1/results/selected.json": "bd1373782893d8e6c4044130679ac9546563434fffab90a034f1f5941355dc38",
+    "outputs/fixed-put-fit-v1/results/models.tar.gz": "8b3ed3400ce8a46d2d814de7b4f95a5c5e2f92b1106ef036d9b0e1de38d8a76f",
+    "outputs/protocol-v4-four-task/protocol.md": "b3c462311339508aa57b98498787e5a896d1e630c0511495ad78f51fca7c1b4c",
+    "outputs/protocol-v4-four-task/fixed-put-formal-freeze.md": "292323c7835b75879e41ecbb9b3db7317f1320ca4ab29eacc88c6ab70440e2e2",
+    "outputs/protocol-v4-four-task/fixed-put-evaluate-v1.md": "373af3c18a03d75fa883d499718c2f3c1783fd171cf1468e7782878334e4b1d7"
+  },
+  "data_snapshot": {
+    "config": "configs/fixed-put-evaluate-v1.json",
+    "sha256": "6bedcad4456c01179822f72a073cfc57833035c2aebb37d5d4e29c281c0c1d68"
+  },
+  "remote_cwd": "/root/codex-projects/1627c004-2f15-45c9-97e3-14fb5f0347e1/deployments/7aec165dd2b356e588fe230cbd68c34bc196e691938ef82fbcf770951ade6fe2",
+  "environment_fingerprint": "2f483d9f80bc4593e8764fe4d4bc717ee6ae3281c432ba1b4b8c61f52dfcc492",
+  "return_procedure": "After node OS wait evidence, source-hash results and materialize same-project v2 manifest to local-mac; verify every returned SHA256."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "frozen",
+  "protocol": "outputs/protocol-v4-four-task/fixed-put-formal-recovery-v2.md",
+  "source_train_file": "outputs/fixed-put-formal-data-v1/results/train.jsonl",
+  "source_train_sha256": "a804440973153738a9440bdd100bc95154657dfe72d14dc34ee1140d69e1ef0a",
+  "train_seed": 20261025,
+  "repair_group": 3451,
+  "workers": 24,
+  "max_seconds": 64800,
+  "splits": [
+    {"name": "val", "groups": 1024, "seed": 20261051, "region": "main"},
+    {"name": "test", "groups": 2048, "seed": 20261052, "region": "main"},
+    {"name": "ood_vol", "groups": 512, "seed": 20261053, "region": "vol"},
+    {"name": "ood_long", "groups": 512, "seed": 20261054, "region": "long"}
+  ]
+}

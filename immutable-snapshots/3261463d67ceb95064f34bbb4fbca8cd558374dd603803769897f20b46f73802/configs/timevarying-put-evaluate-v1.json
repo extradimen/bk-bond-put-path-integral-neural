@@ -1,0 +1,64 @@
+{
+  "status": "frozen",
+  "data_file": "outputs/timevarying-put-formal-recovery-v8/results/data-all.npz",
+  "data_all_sha256": "b1db5c8042c8ac2d6090656add4d16b089d35f0403ac90e41c07d0b833da79ce",
+  "selected_file": "outputs/timevarying-put-fit-v1/results/selected.json",
+  "selected_sha256": "19aece34f800496ef46d9dfb0a996bef39545cb7e583d18225b74107f313950f",
+  "models_file": "outputs/timevarying-put-fit-v1/results/models.tar.gz",
+  "models_sha256": "fe7da7f162afc75822a68358f3d2d5abfcbb9385496f3762578018d71efcaf79",
+  "splits": [
+    "test",
+    "ood_vol",
+    "ood_long"
+  ],
+  "groups": {
+    "test": 2048,
+    "ood_vol": 512,
+    "ood_long": 512
+  },
+  "cells": [
+    "TE",
+    "TB"
+  ],
+  "methods": [
+    "B",
+    "C",
+    "D"
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "contrasts": [
+    [
+      "B",
+      "C"
+    ],
+    [
+      "B",
+      "D"
+    ],
+    [
+      "A",
+      "C"
+    ],
+    [
+      "A",
+      "B"
+    ],
+    [
+      "Dbase",
+      "D"
+    ],
+    [
+      "C",
+      "D"
+    ]
+  ],
+  "analysis_seed": 20261056,
+  "bootstrap_reps": 2000,
+  "signflip_reps": 10000
+}

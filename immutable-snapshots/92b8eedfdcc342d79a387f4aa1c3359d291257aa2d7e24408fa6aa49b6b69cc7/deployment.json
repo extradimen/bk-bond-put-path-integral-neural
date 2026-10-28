@@ -1,0 +1,26 @@
+{
+  "project_id": "1627c004-2f15-45c9-97e3-14fb5f0347e1",
+  "snapshot_sha256": "92b8eedfdcc342d79a387f4aa1c3359d291257aa2d7e24408fa6aa49b6b69cc7",
+  "files": {
+    "scripts/numerics.py": "251f70bc4c41719dfd7cbc101d2c3003d3b0862094953f36b9c697462d171cbd",
+    "scripts/bermudan_pilot.py": "0199c1ddddd48b79493428c4ce5ab71f9ccdb5c3a28ce11a88dfbb6d795e5da0",
+    "scripts/bermudan_gtfk_split_pilot.py": "2c828569d32eabad2e14698b6915199f66f9a27b74b829acb70454eca88c7a87",
+    "scripts/fb_data_pilot.py": "0fd5f223f6b2c50d4e4dfc3d1be42c122939409804ea10a394155aa984f803ad",
+    "scripts/fixed_put_formal_data.py": "0ee44e8acfed01a258b27e70b3acdd25720f262f9dad67fafeda1b641342d4b4",
+    "scripts/fixed_put_formal_recovery.py": "0d16cfa763c1d9b2e288f422e92134cd210894bc4abbda11327f083b7f7a28d7",
+    "configs/fixed-put-formal-recovery-v2.json": "5b2e4450cf78bc3006a0be6621db3b91f87b95a86a2bb1e829a15e3439a40487",
+    "configs/environment-fixed-put-formal-data-v1.json": "22fd289cde0ef113f5ee0c70566a0a07be3556f9b799f84979ad2729c9f5ad50",
+    "configs/requirements-fixed-put-formal-data-v1.lock": "40a6b1c5300782a3364ed3e337c9daa7187ab76f5a685b8f5a954d63f512b4a0",
+    "outputs/fixed-put-formal-data-v1/results/train.jsonl": "a804440973153738a9440bdd100bc95154657dfe72d14dc34ee1140d69e1ef0a",
+    "outputs/protocol-v4-four-task/protocol.md": "b3c462311339508aa57b98498787e5a896d1e630c0511495ad78f51fca7c1b4c",
+    "outputs/protocol-v4-four-task/fixed-put-formal-freeze.md": "292323c7835b75879e41ecbb9b3db7317f1320ca4ab29eacc88c6ab70440e2e2",
+    "outputs/protocol-v4-four-task/fixed-put-formal-recovery-v2.md": "58a43ed07decdc89895bbef7ad50af45a05055cabef23e64eab347297d12a284"
+  },
+  "data_snapshot": {
+    "config": "configs/fixed-put-formal-recovery-v2.json",
+    "sha256": "5b2e4450cf78bc3006a0be6621db3b91f87b95a86a2bb1e829a15e3439a40487"
+  },
+  "remote_cwd": "/root/codex-projects/1627c004-2f15-45c9-97e3-14fb5f0347e1/deployments/92b8eedfdcc342d79a387f4aa1c3359d291257aa2d7e24408fa6aa49b6b69cc7",
+  "environment_fingerprint": "2f483d9f80bc4593e8764fe4d4bc717ee6ae3281c432ba1b4b8c61f52dfcc492",
+  "return_procedure": "After node OS wait evidence, source-hash results and materialize same-project v2 manifest to local-mac; verify every returned SHA256."
+}

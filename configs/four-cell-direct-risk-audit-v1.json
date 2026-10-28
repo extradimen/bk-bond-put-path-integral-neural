@@ -1,0 +1,28 @@
+{
+  "status": "frozen",
+  "groups": 128,
+  "seeds": [11, 23, 37, 53, 71],
+  "selected_count_per_family": 180,
+  "coordinates": {
+    "FE": ["log(a)", "sigma", "log(r0)", "log(rbar)"],
+    "FB": ["log(a)", "sigma", "log(r0)", "log(rbar)"],
+    "TE": ["log(a1)", "log(a2)", "sigma1", "sigma2", "log(r0)", "log(rbar1)", "log(rbar2)"],
+    "TB": ["log(a1)", "log(a2)", "sigma1", "sigma2", "log(r0)", "log(rbar1)", "log(rbar2)"]
+  },
+  "sources": {
+    "fixed": {
+      "cells": ["FE", "FB"],
+      "data": {"file": "outputs/fixed-put-formal-recovery-v2/results/data-all.npz", "sha256": "f43b1488a839ebebe6c8300dedda7c050371bb3d0d6349928e8ebce3a3d100c9"},
+      "risk": {"file": "outputs/fixed-put-risk-repair-v1/results/risk-labels.npz", "sha256": "608b6c64bd3b6ef9efc1a721b124e655f7372d9c61c8f73977ee090e8b248aba"},
+      "selected": {"file": "outputs/fixed-put-fit-v1/results/selected.json", "sha256": "bd1373782893d8e6c4044130679ac9546563434fffab90a034f1f5941355dc38"},
+      "models": {"file": "outputs/fixed-put-fit-v1/results/models.tar.gz", "sha256": "8b3ed3400ce8a46d2d814de7b4f95a5c5e2f92b1106ef036d9b0e1de38d8a76f"}
+    },
+    "timevarying": {
+      "cells": ["TE", "TB"],
+      "data": {"file": "outputs/timevarying-put-formal-recovery-v8/results/data-all.npz", "sha256": "b1db5c8042c8ac2d6090656add4d16b089d35f0403ac90e41c07d0b833da79ce"},
+      "risk": {"file": "outputs/timevarying-put-risk-merge-v1/results/labels.jsonl", "sha256": "d9ad1d273e5eebab4b482e9c044ff1d8e9c78857b7d791ae643b07459dd93d4c"},
+      "selected": {"file": "outputs/timevarying-put-fit-v1/results/selected.json", "sha256": "19aece34f800496ef46d9dfb0a996bef39545cb7e583d18225b74107f313950f"},
+      "models": {"file": "outputs/timevarying-put-fit-v1/results/models.tar.gz", "sha256": "fe7da7f162afc75822a68358f3d2d5abfcbb9385496f3762578018d71efcaf79"}
+    }
+  }
+}
