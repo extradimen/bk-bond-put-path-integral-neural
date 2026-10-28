@@ -1,0 +1,35 @@
+{
+  "stage": "fixed-put formal recovery v2",
+  "complete": true,
+  "failures": 0,
+  "timing": {
+    "train": {
+      "groups": 4096,
+      "reused_groups": 4095,
+      "refined_groups": 1,
+      "source_sha256": "a804440973153738a9440bdd100bc95154657dfe72d14dc34ee1140d69e1ef0a"
+    },
+    "val": {
+      "groups": 1024,
+      "wall_seconds": 9441.833921176032,
+      "group_cpu_seconds_sum": 225310.120309993
+    },
+    "test": {
+      "groups": 2048,
+      "wall_seconds": 18286.75661883806,
+      "group_cpu_seconds_sum": 437395.289271625
+    },
+    "ood_vol": {
+      "groups": 512,
+      "wall_seconds": 5132.3771467809565,
+      "group_cpu_seconds_sum": 121606.66335473399
+    },
+    "ood_long": {
+      "groups": 512,
+      "wall_seconds": 4699.7138517629355,
+      "group_cpu_seconds_sum": 111627.851086239
+    }
+  },
+  "elapsed_seconds": 37636.316063273,
+  "scope": "F-E/F-B paired labels; no model training"
+}
