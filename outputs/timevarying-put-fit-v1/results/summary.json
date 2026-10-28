@@ -1,0 +1,8 @@
+{
+  "stage": "formal TE/TB B/C/D fits",
+  "fits": 720,
+  "selected": 180,
+  "elapsed_seconds": 815.0554162508342,
+  "fit_cpu_seconds_sum": 18088.972603162,
+  "data_fit_sha256": "2a3ab0d2719d86a49135dd193da399561d3b65b847e60770f6ae5b904215aa5c"
+}
