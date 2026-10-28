@@ -1,0 +1,233 @@
+{
+  "TE": {
+    "groups": 8,
+    "candidates": [
+      {
+        "family": "GTFK",
+        "n": 801,
+        "nq": 64,
+        "ny": 64,
+        "rate": null,
+        "validation_mae": 2.9872445055091857e-06,
+        "median_seconds_per_three_strikes": 1.2119796496117488,
+        "mean_seconds_per_three_strikes": 1.195418917806819
+      },
+      {
+        "family": "GTFK",
+        "n": 1601,
+        "nq": 64,
+        "ny": 64,
+        "rate": null,
+        "validation_mae": 2.959745627888089e-06,
+        "median_seconds_per_three_strikes": 2.875810258090496,
+        "mean_seconds_per_three_strikes": 2.8160916086635552
+      },
+      {
+        "family": "GTFK",
+        "n": 3201,
+        "nq": 64,
+        "ny": 64,
+        "rate": null,
+        "validation_mae": 2.9738927906406147e-06,
+        "median_seconds_per_three_strikes": 6.044779667514376,
+        "mean_seconds_per_three_strikes": 5.915818555280566
+      },
+      {
+        "family": "GTFK",
+        "n": 801,
+        "nq": 128,
+        "ny": 128,
+        "rate": null,
+        "validation_mae": 2.982980783187147e-06,
+        "median_seconds_per_three_strikes": 4.501132037956268,
+        "mean_seconds_per_three_strikes": 4.376548014843138
+      },
+      {
+        "family": "GTFK",
+        "n": 1601,
+        "nq": 128,
+        "ny": 128,
+        "rate": null,
+        "validation_mae": 2.958803356195257e-06,
+        "median_seconds_per_three_strikes": 9.361127992975526,
+        "mean_seconds_per_three_strikes": 9.135343309055315
+      },
+      {
+        "family": "GTFK",
+        "n": 3201,
+        "nq": 128,
+        "ny": 128,
+        "rate": null,
+        "validation_mae": 2.9737162815408916e-06,
+        "median_seconds_per_three_strikes": 19.459110702504404,
+        "mean_seconds_per_three_strikes": 18.953657896461664
+      },
+      {
+        "family": "PDE",
+        "n": 101,
+        "nq": null,
+        "ny": null,
+        "rate": 100,
+        "validation_mae": 7.468304426886923e-05,
+        "median_seconds_per_three_strikes": 0.016586394631303847,
+        "mean_seconds_per_three_strikes": 0.016645250405417755
+      },
+      {
+        "family": "PDE",
+        "n": 201,
+        "nq": null,
+        "ny": null,
+        "rate": 50,
+        "validation_mae": 2.0018244234850636e-05,
+        "median_seconds_per_three_strikes": 0.010474339360371232,
+        "mean_seconds_per_three_strikes": 0.01049979284289293
+      },
+      {
+        "family": "PDE",
+        "n": 201,
+        "nq": null,
+        "ny": null,
+        "rate": 100,
+        "validation_mae": 1.9843466381436793e-05,
+        "median_seconds_per_three_strikes": 0.019508502446115017,
+        "mean_seconds_per_three_strikes": 0.019767698511714116
+      },
+      {
+        "family": "PDE",
+        "n": 201,
+        "nq": null,
+        "ny": null,
+        "rate": 200,
+        "validation_mae": 1.980089077471687e-05,
+        "median_seconds_per_three_strikes": 0.037920892937108874,
+        "mean_seconds_per_three_strikes": 0.03845651351730339
+      },
+      {
+        "family": "PDE",
+        "n": 401,
+        "nq": null,
+        "ny": null,
+        "rate": 100,
+        "validation_mae": 2.9804279651388943e-06,
+        "median_seconds_per_three_strikes": 0.02513095806352794,
+        "mean_seconds_per_three_strikes": 0.025757642870303243
+      }
+    ]
+  },
+  "TB": {
+    "groups": 8,
+    "candidates": [
+      {
+        "family": "GTFK",
+        "n": 801,
+        "nq": 64,
+        "ny": 64,
+        "rate": null,
+        "validation_mae": 1.3576108208843524e-05,
+        "median_seconds_per_three_strikes": 5.535663738031872,
+        "mean_seconds_per_three_strikes": 5.500156698282808
+      },
+      {
+        "family": "GTFK",
+        "n": 1601,
+        "nq": 64,
+        "ny": 64,
+        "rate": null,
+        "validation_mae": 1.3585682321220683e-05,
+        "median_seconds_per_three_strikes": 12.972678764956072,
+        "mean_seconds_per_three_strikes": 12.953918417246314
+      },
+      {
+        "family": "GTFK",
+        "n": 3201,
+        "nq": 64,
+        "ny": 64,
+        "rate": null,
+        "validation_mae": 1.3639956723030168e-05,
+        "median_seconds_per_three_strikes": 27.240680267103016,
+        "mean_seconds_per_three_strikes": 27.14483415320865
+      },
+      {
+        "family": "GTFK",
+        "n": 801,
+        "nq": 128,
+        "ny": 128,
+        "rate": null,
+        "validation_mae": 1.3575193326374039e-05,
+        "median_seconds_per_three_strikes": 20.292776543530636,
+        "mean_seconds_per_three_strikes": 20.2256659156119
+      },
+      {
+        "family": "GTFK",
+        "n": 1601,
+        "nq": 128,
+        "ny": 128,
+        "rate": null,
+        "validation_mae": 1.3586124176287063e-05,
+        "median_seconds_per_three_strikes": 42.556574449525215,
+        "mean_seconds_per_three_strikes": 42.54049996676622
+      },
+      {
+        "family": "GTFK",
+        "n": 3201,
+        "nq": 128,
+        "ny": 128,
+        "rate": null,
+        "validation_mae": 1.3640558568277692e-05,
+        "median_seconds_per_three_strikes": 88.84525467688218,
+        "mean_seconds_per_three_strikes": 88.91739784588572
+      },
+      {
+        "family": "PDE",
+        "n": 101,
+        "nq": null,
+        "ny": null,
+        "rate": 100,
+        "validation_mae": 0.00014819107698804907,
+        "median_seconds_per_three_strikes": 0.0398087406065315,
+        "mean_seconds_per_three_strikes": 0.040365135413594544
+      },
+      {
+        "family": "PDE",
+        "n": 201,
+        "nq": null,
+        "ny": null,
+        "rate": 50,
+        "validation_mae": 3.664259529371041e-05,
+        "median_seconds_per_three_strikes": 0.024653093656525016,
+        "mean_seconds_per_three_strikes": 0.02547211226192303
+      },
+      {
+        "family": "PDE",
+        "n": 201,
+        "nq": null,
+        "ny": null,
+        "rate": 100,
+        "validation_mae": 3.626262580847041e-05,
+        "median_seconds_per_three_strikes": 0.04760338400956243,
+        "mean_seconds_per_three_strikes": 0.04836700321175158
+      },
+      {
+        "family": "PDE",
+        "n": 201,
+        "nq": null,
+        "ny": null,
+        "rate": 200,
+        "validation_mae": 3.616901421038024e-05,
+        "median_seconds_per_three_strikes": 0.09390724648255855,
+        "mean_seconds_per_three_strikes": 0.09521815736661665
+      },
+      {
+        "family": "PDE",
+        "n": 401,
+        "nq": null,
+        "ny": null,
+        "rate": 100,
+        "validation_mae": 5.7041348071386075e-06,
+        "median_seconds_per_three_strikes": 0.061262764036655426,
+        "mean_seconds_per_three_strikes": 0.06221071977051906
+      }
+    ]
+  },
+  "scope": "frozen validation subset; numerical families only; no test selection"
+}
