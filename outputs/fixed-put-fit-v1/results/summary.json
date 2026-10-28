@@ -1,0 +1,8 @@
+{
+  "stage": "formal FE/FB B/C/D fits",
+  "fits": 720,
+  "selected": 180,
+  "elapsed_seconds": 660.2779297480593,
+  "fit_cpu_seconds_sum": 14985.826863388,
+  "data_fit_sha256": "1d42c9c381ec3b1db0ca18995f206c04646244b409d07595c77ed71dedeaa46e"
+}
