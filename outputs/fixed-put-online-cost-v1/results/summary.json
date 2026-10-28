@@ -1,0 +1,76 @@
+{
+  "FE": {
+    "A": {
+      "group_count": 16,
+      "batch_size": 3,
+      "median_seconds": 0.3709950475022197,
+      "mean_seconds": 0.3586757454177132,
+      "q95_seconds": 0.3930493987281807
+    },
+    "B": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 4.594947677105665e-05,
+      "mean_seconds": 5.00039488542825e-05,
+      "q95_seconds": 7.696424145251512e-05
+    },
+    "C": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 0.371047934575472,
+      "mean_seconds": 0.3587314142161631,
+      "q95_seconds": 0.39860753529937937
+    },
+    "Dbase": {
+      "group_count": 16,
+      "batch_size": 3,
+      "median_seconds": 0.018893483036663383,
+      "mean_seconds": 0.018916999084467534,
+      "q95_seconds": 0.02347104050568305
+    },
+    "D": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 0.018954547529574484,
+      "mean_seconds": 0.018979040994599926,
+      "q95_seconds": 0.02470548157580197
+    }
+  },
+  "FB": {
+    "A": {
+      "group_count": 16,
+      "batch_size": 3,
+      "median_seconds": 72.59719510946888,
+      "mean_seconds": 73.59536782403302,
+      "q95_seconds": 83.01431081246119
+    },
+    "B": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 4.2135012336075306e-05,
+      "mean_seconds": 5.8045990590471776e-05,
+      "q95_seconds": 8.979682461358607e-05
+    },
+    "C": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 72.59725637146039,
+      "mean_seconds": 73.59543365913414,
+      "q95_seconds": 92.93446737157065
+    },
+    "Dbase": {
+      "group_count": 16,
+      "batch_size": 3,
+      "median_seconds": 0.04398677300196141,
+      "mean_seconds": 0.0451435794311692,
+      "q95_seconds": 0.057502878771629184
+    },
+    "D": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 0.04404539498500526,
+      "mean_seconds": 0.045191435203014406,
+      "q95_seconds": 0.06221913333865814
+    }
+  }
+}
