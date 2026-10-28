@@ -1,0 +1,10 @@
+{
+  "completed_fits": 72,
+  "total_fits": 72,
+  "reused_fits": 54,
+  "selected": 6,
+  "elapsed_seconds": 527.407080804,
+  "data_sha256": "b6719b3222c6c834f69371d1d0bee2b6b479b84d0e4695d8a8308263b96866ad",
+  "partial_archive_sha256": "c7984823ef660c55e7b9dccdafb7f4f44c6952fe90a071463ad2e60000eb472b",
+  "scope": "state-conditioned B/C/D continuation fits; train/validation only"
+}
