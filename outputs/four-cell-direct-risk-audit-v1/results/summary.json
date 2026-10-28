@@ -1,0 +1,6 @@
+{
+  "completed": 20,
+  "expected": 20,
+  "groups_per_cell": 128,
+  "scope": "exploratory direct B analytic gradients versus certified PDE derivative subsets"
+}
