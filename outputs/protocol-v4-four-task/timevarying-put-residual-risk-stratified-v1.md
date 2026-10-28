@@ -1,0 +1,5 @@
+# Time-varying residual derivative extension v1
+
+Frozen before launch on 2026-10-24. Apply the previously validated C/D residual-gradient audit without retraining to the six additional certified middle-strike test groups per T-E and T-B cell: 8, 16, 32, 64, 96, 127. Use the selected 4096-group price fits, five seeds, and the same A/Dbase derivative rows from the stratified baseline audit. The immutable input hashes and model set are in the stage config. The frozen denominator is 2 cells × 2 methods × 5 seeds × 6 groups = 120 fit-group rows.
+
+Report price and seven-coordinate derivative errors against the already certified PDE risk-label subset, with baseline resolution-change flags. This is an exploratory, selected-model subset audit. Coarse Dbase values in T-B group 127 failed numerical stability; D rows inheriting that baseline must be flagged as unstable rather than interpreted as valid network derivative accuracy. This extension does not modify or replace the prior failed numerical gate or the original four-group pilot.

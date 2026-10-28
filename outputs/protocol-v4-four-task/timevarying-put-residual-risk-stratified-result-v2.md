@@ -1,0 +1,7 @@
+# Time-varying C/D residual derivative extension v2 result
+
+The frozen six additional groups per T-E/T-B cell, five seeds and two residual methods completed 120/120 fit-group rows. The campus-3090-2 node recorded OS child wait return code 0 with matching PID identity, command and working directory. The result ledger and summary were returned with same-project SHA-256 verification. V1 stopped before launch at the global registry lock due a sandbox permission error; its deployment artifacts remain preserved. V2 used the same frozen numerical inputs and comparisons.
+
+Across these selected middle-strike groups, mean absolute derivative error for C is at most 8e-6 in T-E and 2.4e-5 in T-B across the seven coordinates. For D it reaches 0.001199 in T-E and 0.003232 in T-B. These are exploratory selected-model subsets, not population estimates or a formal method ranking. D inherits coarse Dbase's grid-resolution instability; its maximum derivative resolution change is 0.001993 in T-E and 0.020986 in T-B. In particular the T-B group 127 coarse-baseline numerical failure remains a flagged method failure, so its D derivative errors cannot be attributed solely to network learning.
+
+Raw source: `outputs/timevarying-put-residual-risk-stratified-v2/results/pilot.jsonl`; frozen input/model identity and 120-row denominator are in the v2 stage config. A/C/D full test distribution and the unresolved true exercise-boundary cases remain open.

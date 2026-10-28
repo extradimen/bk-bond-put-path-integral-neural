@@ -1,0 +1,3 @@
+# Selective boundary diagnosis v2: failed before group computation
+
+Frozen run `20261023T115452Z__1627c004__put-exercise-boundary-diagnose-v2` returned node `os_child_wait_status` with `return_code=1`; project collection verified the failed-run artifacts. The node stderr identifies `KeyError: 'groups'` in the newly added `groups_by_cell` handling: Python evaluated the `dict.get` default expression even though `groups_by_cell` existed. No group results were produced. The run, snapshot, receipts and stderr remain preserved. A new snapshot and stage v3 repair the branch selection without changing the v2 sample, methods, grids or diagnostic questions.

@@ -1,0 +1,3 @@
+# Fixed-grid diagnosis v2: additive deployment repair
+
+Version 1 failed before evaluating any group: its immutable deployment omitted `scripts/timevarying_put_evaluate.py`, which `timevarying_put_online_cost.py` imports, and therefore also omitted `scripts/learning.py`. The node OS child wait returned 1, and the failed-run artifacts were checksum-returned and retained. Version 2 keeps the same two frozen targets, steps, PDE settings, input hashes and diagnostic code, while adding those two transitive source dependencies to a new immutable snapshot. It is a deployment repair, not a changed numerical protocol. The version 1 failure remains part of the record.

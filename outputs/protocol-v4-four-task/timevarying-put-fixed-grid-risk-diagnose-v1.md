@@ -1,0 +1,3 @@
+# Coarse PDE derivative instability diagnosis, frozen v1
+
+For T-B test group 127, where the coarse Dbase derivative fails, and T-E group 96, where the resolution change is also elevated, hold the state grid fixed at the unperturbed contract for each numerical setting. Compute the seven central-difference derivatives at the previously frozen h and h/2 on that grid, compare with the prior dynamic-grid ledger and independent PDE derivatives, and record the grid endpoints induced by each ±h perturbation. Use both deployed Dbase 201/100 and refined 401/200 settings. Two frozen cell-groups total. This is a targeted numerical diagnosis; it does not replace the original failed ledger or automatically certify a new Dbase method. Preserve all warnings and failures.

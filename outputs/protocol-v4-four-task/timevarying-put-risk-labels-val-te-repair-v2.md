@@ -1,0 +1,3 @@
+# T-E validation risk-label numerical repair, frozen v2
+
+The v1 validation ledger completed all 128 T-E groups and identified four failed middle-strike groups: 51, 54, 92, and 125. This additive repair retains the seven coordinates, central-difference steps, 1e-4 stability gate, and frozen v8 data contract. It uses 6401/9601 spatial points at 400 time steps and 9601/800 and 14401/400 sensitivity checks on the same representative axes. The frozen denominator is four groups. Launch only after v1 has OS child-wait evidence and checksum-verified return. Original v1 rows remain preserved; any later merged validation label artifact must retain stage and grid-resolution provenance. Remaining failures require a separately versioned repair.

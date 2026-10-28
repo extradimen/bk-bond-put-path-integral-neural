@@ -1,0 +1,7 @@
+# Time-varying T-E/T-B E6 conditional selection (frozen before execution)
+
+Fit a maximum-one-split method selector separately for T-E and T-B using all 1024 formal validation groups; evaluate once on the separate 2048 test groups. Candidates A/B/C/Dbase/D use frozen numerical baselines and the five-seed average of the formally selected tuned 4096-group price models. Candidate features are pre-pricing contract parameters averaged within each three-strike group. Validation loss is group price MAE plus lambda times implementation-level online seconds, with lambda fixed at 0, 1e-7 and 1e-5 price units per second. Quantile thresholds, seed list, methods and all source SHA-256 hashes are frozen in `configs/timevarying-put-adaptive-selection-v1.json`; online time comes from the existing T-E/T-B warm cost audit and charges five network increments for a five-seed ensemble.
+
+Report selected rule, validation objective, test price MAE, method counts, mean/median estimated seconds and comparison to the validation-selected constant method. This is exploratory after the T-E/T-B primary test prices were observed, and the small warm timing sample is a cost proxy rather than guaranteed deployment latency. No model refit, test-driven selector adjustment, new confirmatory p-value or claim that adaptive selection improves every regime is permitted.
+
+Run only through the project immutable deployer and global resources/preflight/experimentctl launch with same-project SHA-256 material/environment receipts, node OS child wait and verified local return.

@@ -1,0 +1,7 @@
+# Time-varying E5 label-resolution sensitivity: exploratory result
+
+The frozen T-E/T-B E5 analysis completed both 2048-group test cells, run `20261023T122950Z__1627c004__timevarying-put-label-precision-v1` on campus-3090-2. Node OS child wait recorded `return_code=0`; the project collector verified all returned SHA-256 hashes. The input reference ledger, packed prices, selected formal models and predictions were checksum-pinned before the run.
+
+Group-mean PDE refinement indicators average 3.8567e-8 in T-E and 9.5779e-8 in T-B, with 95th percentiles 1.0951e-7 and 2.8409e-7. These are recorded grid/time/domain changes, not bounds on true reference error. The five-seed C test MAEs are 6.689e-7 (T-E) and 5.772e-6 (T-B), about 17.3 and 60.3 times the mean indicators. Among the six prespecified method-error contrasts per cell, the smallest absolute mean difference relative to twice the mean indicator is about 58.0 (T-E A−C) and 72.4 (T-B C−D). Detailed method ratios, within-indicator group fractions and contrast metrics are in `outputs/timevarying-put-label-precision-v1/results/summary.json`.
+
+The observed refinement changes are much smaller than the main average method differences on these frozen tests, but this does not prove exact rankings or guarantee label error bounds. The original four-cell 24-comparison Holm family remains the inferential result; no new p-values were created here.

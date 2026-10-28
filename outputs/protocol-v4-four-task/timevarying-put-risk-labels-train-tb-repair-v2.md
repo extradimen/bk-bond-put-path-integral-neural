@@ -1,0 +1,3 @@
+# T-B training risk-label numerical repair, frozen v2
+
+The completed v1 ledger has four T-B middle-strike failures at groups 153 (sigma1), 178 (sigma2), 196 (sigma1), and 229 (log(r0), log(rbar2)). This additive repair retains the seven coordinates, central-difference steps, 1e-4 gate, and frozen v8 data contract. It refines the PDE spatial grids to 6401/9601 at 400 time steps, with 9601/800 time and 14401/400 larger-domain checks on the same representative axes. The frozen denominator is four groups. Original v1 rows remain preserved; later merged training labels must retain source-stage and resolution provenance. Any remaining failure requires separate assessment and a new protocol version.

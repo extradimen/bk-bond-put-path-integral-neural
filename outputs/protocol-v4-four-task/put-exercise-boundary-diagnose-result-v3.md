@@ -1,0 +1,9 @@
+# Selective actual exercise boundary diagnosis v3
+
+The repaired, frozen eleven-cell-group diagnosis completed 11/11 on campus-3090-2, run `20261023T115731Z__1627c004__put-exercise-boundary-diagnose-v3`. Node OS child wait recorded `return_code=0`; project collection verified the returned SHA-256 hashes. The failed v2 run and the original 32-group gate failures remain preserved.
+
+F-B group 2 has no first-date crossing in any of seven settings: the gap is positive throughout each grid, indicating the sampled state domain is entirely in the exercise region at that date. For F-B 3/14 and T-B 4/6/14, the independent split method at 801 points has extra low-rate roots. Higher split resolution removes them for T-B 4/6, but F-B 3/14 and T-B 14 show many tiny low-rate sign oscillations at 1601 points before they disappear by 3201 points. Those roots are numerical topology artifacts at the tested resolutions; do not reinterpret their frozen v1 gate failures as passes.
+
+The near-tangent T-B 5/10/13 second-date roots move materially between 801 and 1601 points. At matched 3201 points, the independent split and PDE principal roots agree closely, and PDE time refinement is smaller than spatial changes. T-B 10 remains particularly ill-conditioned: PDE roots at 1601/3201/6401 points are approximately 0.0260900/0.0261792/0.0262239 in short-rate units, while the gap minimum is only about -1e-7. Thus a 1e-4 absolute root-location rule can be unstable near tangency even when underlying values agree more closely. The original 23/32 qualified count is unchanged.
+
+Next, define a boundary-existence and economically relevant crossing criterion before broader analysis; retain an explicit unresolved category for near-tangent cases rather than choosing a tolerance after seeing them. Full four-cell model boundary or risk-delta comparison remains outstanding.

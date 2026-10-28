@@ -1,0 +1,3 @@
+# Selective boundary diagnosis v3 (repair frozen before execution)
+
+This version retains the eleven frozen cell-groups, source hashes, four PDE settings, three independent OU-split settings and interpretation in `put-exercise-boundary-diagnose-v2.md`. The sole code correction is selecting `groups_by_cell` without eagerly evaluating the absent legacy `groups` key. The v2 failed run and stderr remain preserved. The repaired run uses a new immutable snapshot, project-scoped material/environment receipts, global resources/preflight/experimentctl launch, node OS child wait and verified return. No prior numerical result or accuracy threshold is changed.

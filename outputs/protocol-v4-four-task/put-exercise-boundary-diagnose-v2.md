@@ -1,0 +1,7 @@
+# Actual exercise boundary selective numerical diagnosis v2 (frozen before execution)
+
+The original 32-group gate and all nine failures remain unchanged. The frozen diagnosis takes those nine failed groups plus group 0 in both cells as controls: F-B 0/2/3/14 and T-B 0/4/5/6/10/13/14, eleven cell-groups total. Input data hashes and seven grid settings are in `configs/put-exercise-boundary-diagnose-v2.json`.
+
+For each exercise date, retain all intrinsic-minus-continuation roots and the gap extrema. PDE 1601/3201/6401 points at 100 time steps per year isolate spatial convergence; PDE 3201 points at 200 steps per year isolates time sensitivity; independent OU-split 801/1601/3201 points tests whether extra roots persist under its own spatial refinement. One case with no root but strictly positive gap throughout the grid is a possible all-exercise category, not a numeric root-location failure; it remains a failure of the prior single-root gate. Extra low-rate roots and near-tangent cases retain their failure status until this diagnosis is reviewed. No new accuracy threshold is chosen based on outcomes, and no prior failure is overwritten.
+
+Use the project deployer and global resources/preflight/experimentctl launch on campus-3090-2 with immutable snapshot, project-scoped SHA-256 materials, environment receipt, node OS child wait and verified local return. This diagnosis does not train a model or establish full-sample boundary accuracy.

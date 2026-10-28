@@ -1,0 +1,3 @@
+# Residual derivative extension v2: prelaunch deployment repair
+
+The v1 project deployer materialized its snapshot and built its environment, but stopped before registry update, global resource preflight, or experiment launch because the sandbox denied writing the global project-registry lock. No v1 node process or result ledger exists. The v1 deployment artifacts remain preserved. Version 2 retains the same 120 frozen fit-group rows, data, methods, seeds, and numerical interpretation; it changes only the immutable stage/config identity and includes this additive note. The required registry write permission was obtained before retrying the project deployment workflow.

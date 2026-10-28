@@ -1,0 +1,5 @@
+# Time-varying A/Dbase derivative extension v1
+
+Frozen before launch on 2026-10-24. Extend the previously audited T-E/T-B middle-strike test subset with eight non-overlapping certified test groups per cell: 4, 12, 24, 40, 56, 72, 104, 120. The denominator is 16 cell-groups; the earlier groups 0, 1, 8, 16, 32, 64, 96, 127 are not rerun. Use the existing frozen seven coordinates, central-difference steps, A 4801/6401 state grids, Dbase 201/100 and 401/200 grids, and prior high-precision PDE derivative references without altering numerical thresholds or methods.
+
+This extension quantifies the previously observed coarse Dbase sensitivity failure across a broader stratified set and gives C/D residual follow-up a predeclared baseline subset. Every group, including failures, remains in the ledger. It is exploratory after price results were seen, not a new confirmatory population estimate. No failed coarse derivative will be silently replaced with a refined derivative for the fixed Dbase method.
