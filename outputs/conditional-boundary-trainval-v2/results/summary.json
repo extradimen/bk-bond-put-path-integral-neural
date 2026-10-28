@@ -1,0 +1,8 @@
+{
+  "completed_groups": 320,
+  "total_groups": 320,
+  "passed_groups": 304,
+  "max_independent_change": 0.0011619165107627986,
+  "data_sha256": "35c94221a63ad8ac2ea59c863e46fe6f44e77fc0160141132309d191a2ff9f9b",
+  "scope": "group-isolated train/validation conditional continuation labels; no fitting or test access"
+}
