@@ -1,0 +1,7 @@
+{
+  "stage": "formal TE/TB blinded evaluation",
+  "elapsed_seconds": 7.55732932779938,
+  "primary_contrasts": 12,
+  "predictions": 540,
+  "scope": "primary time-varying group contrasts; online full baseline cost audited separately"
+}

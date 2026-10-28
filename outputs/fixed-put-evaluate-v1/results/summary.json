@@ -1,0 +1,7 @@
+{
+  "stage": "formal FE/FB blinded evaluation",
+  "elapsed_seconds": 7.903872507973574,
+  "primary_contrasts": 12,
+  "predictions": 540,
+  "scope": "primary fixed-coefficient group contrasts; online full baseline cost audited separately"
+}
