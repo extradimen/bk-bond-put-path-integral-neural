@@ -1,0 +1,39 @@
+{
+  "stage": "formal time-varying paired put labels v8",
+  "complete": true,
+  "failures": 0,
+  "timing": {
+    "train": {
+      "groups": 4096,
+      "reused_groups": 4096,
+      "new_groups": 0,
+      "wall_seconds": 0.32227756490465254
+    },
+    "val": {
+      "groups": 1024,
+      "reused_groups": 1024,
+      "new_groups": 0,
+      "wall_seconds": 0.09975736797787249
+    },
+    "test": {
+      "groups": 2048,
+      "reused_groups": 0,
+      "new_groups": 2048,
+      "wall_seconds": 80866.51288401394
+    },
+    "ood_vol": {
+      "groups": 512,
+      "reused_groups": 512,
+      "new_groups": 0,
+      "wall_seconds": 0.04741149302572012
+    },
+    "ood_long": {
+      "groups": 512,
+      "reused_groups": 0,
+      "new_groups": 512,
+      "wall_seconds": 21303.647906328086
+    }
+  },
+  "elapsed_seconds": 102171.77878572699,
+  "scope": "T-E and T-B labels and numerical baselines; no training"
+}
