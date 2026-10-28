@@ -1,0 +1,27 @@
+{
+  "completed_groups": 128,
+  "total_groups": 128,
+  "reference_valid_dates": 753,
+  "total_dates": 768,
+  "methods": {
+    "B": {
+      "passed_dates": 165,
+      "total_dates": 768,
+      "mean_mae": 0.0018296009175286113,
+      "max_root_error_short_rate": 0.11766254335810847
+    },
+    "C": {
+      "passed_dates": 454,
+      "total_dates": 768,
+      "mean_mae": 6.0954987825663586e-05,
+      "max_root_error_short_rate": 0.16738644867470623
+    },
+    "D": {
+      "passed_dates": 239,
+      "total_dates": 768,
+      "mean_mae": 0.00010746154145360467,
+      "max_root_error_short_rate": 0.12794804023648984
+    }
+  },
+  "scope": "held-out exercise-date conditional B/C/D boundary comparison; exploratory small-sample fits"
+}
