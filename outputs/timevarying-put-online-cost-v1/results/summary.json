@@ -1,0 +1,76 @@
+{
+  "TE": {
+    "A": {
+      "group_count": 16,
+      "batch_size": 3,
+      "median_seconds": 54.47194872202817,
+      "mean_seconds": 53.37308888039843,
+      "q95_seconds": 56.643223862338345
+    },
+    "B": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 5.26009825989604e-05,
+      "mean_seconds": 6.171702116262168e-05,
+      "q95_seconds": 8.938369574025273e-05
+    },
+    "C": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 54.472008918062784,
+      "mean_seconds": 53.37315419057268,
+      "q95_seconds": 57.22396841677837
+    },
+    "Dbase": {
+      "group_count": 16,
+      "batch_size": 3,
+      "median_seconds": 0.019306847476400435,
+      "mean_seconds": 0.019728073064470664,
+      "q95_seconds": 0.02391192567301914
+    },
+    "D": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 0.01937072945293039,
+      "mean_seconds": 0.0197870565316407,
+      "q95_seconds": 0.024149087711703033
+    }
+  },
+  "TB": {
+    "A": {
+      "group_count": 16,
+      "batch_size": 3,
+      "median_seconds": 238.64229441655334,
+      "mean_seconds": 239.99681338282244,
+      "q95_seconds": 252.36602924350882
+    },
+    "B": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 7.44471326470375e-05,
+      "mean_seconds": 7.202804263215513e-05,
+      "q95_seconds": 0.0001008982304483652
+    },
+    "C": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 238.64236176968552,
+      "mean_seconds": 239.9968861322064,
+      "q95_seconds": 252.50101931471144
+    },
+    "Dbase": {
+      "group_count": 16,
+      "batch_size": 3,
+      "median_seconds": 0.046885740011930466,
+      "mean_seconds": 0.04807818800327368,
+      "q95_seconds": 0.05940651323180646
+    },
+    "D": {
+      "group_count": 80,
+      "batch_size": 3,
+      "median_seconds": 0.04695457452908158,
+      "mean_seconds": 0.048156448971712965,
+      "q95_seconds": 0.0636756367282942
+    }
+  }
+}
